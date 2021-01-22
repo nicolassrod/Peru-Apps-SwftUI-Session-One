@@ -9,8 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            VStack(spacing: 15.0) {
+                ScrollView {
+                    VStack {
+                        ProducView()
+                        ProducView()
+                        ProducView()
+                        ProducView()
+                        ProducView()
+                        ProducView()
+                        ProducView()
+                        ProducView()
+                        ProducView()
+                    }.padding()
+                }
+            }.navigationTitle("Products")
+        }
     }
 }
 

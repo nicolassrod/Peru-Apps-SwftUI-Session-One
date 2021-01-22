@@ -13,6 +13,7 @@
 		37E7CFAA25BA33BC00D08330 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E7CFA925BA33BC00D08330 /* Preview Assets.xcassets */; };
 		37E7CFB525BA33BD00D08330 /* Peru_Apps_SwftUI_Session_OneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E7CFB425BA33BD00D08330 /* Peru_Apps_SwftUI_Session_OneTests.swift */; };
 		37E7CFC025BA33BD00D08330 /* Peru_Apps_SwftUI_Session_OneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E7CFBF25BA33BD00D08330 /* Peru_Apps_SwftUI_Session_OneUITests.swift */; };
+		37E7CFD525BA409200D08330 /* ProducView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E7CFD425BA409200D08330 /* ProducView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		37E7CFBB25BA33BD00D08330 /* Peru Apps SwftUI Session OneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Peru Apps SwftUI Session OneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E7CFBF25BA33BD00D08330 /* Peru_Apps_SwftUI_Session_OneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peru_Apps_SwftUI_Session_OneUITests.swift; sourceTree = "<group>"; };
 		37E7CFC125BA33BD00D08330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E7CFD425BA409200D08330 /* ProducView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProducView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		37E7CFA125BA33B700D08330 /* Peru Apps SwftUI Session One */ = {
 			isa = PBXGroup;
 			children = (
+				37E7CFD025BA33E300D08330 /* Components */,
 				37E7CFA225BA33B700D08330 /* Peru_Apps_SwftUI_Session_OneApp.swift */,
 				37E7CFA425BA33B700D08330 /* ContentView.swift */,
 				37E7CFA625BA33BC00D08330 /* Assets.xcassets */,
@@ -128,6 +131,14 @@
 				37E7CFC125BA33BD00D08330 /* Info.plist */,
 			);
 			path = "Peru Apps SwftUI Session OneUITests";
+			sourceTree = "<group>";
+		};
+		37E7CFD025BA33E300D08330 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				37E7CFD425BA409200D08330 /* ProducView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37E7CFA525BA33B700D08330 /* ContentView.swift in Sources */,
+				37E7CFD525BA409200D08330 /* ProducView.swift in Sources */,
 				37E7CFA325BA33B700D08330 /* Peru_Apps_SwftUI_Session_OneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
